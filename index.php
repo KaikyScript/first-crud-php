@@ -2,6 +2,8 @@
 <?php include_once 'includes/header.inc.php'?>
 
 <?php include_once 'includes/menu.inc.php'?>
+
+
     <!-- Form de Cadastro -->
 
     <div class="row container">

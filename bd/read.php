@@ -10,7 +10,7 @@ while($registros = $querySelect->fetch_assoc()):
     $telefone = $registros['telefone'];
 
     echo "<tr>";
-    echo "<td>$nome</td><td>$email</td><td>$telefone</td><td><a href='bd/update.php?id=$id'><i class='material-icons'>edit</i></td><td><a href='bd/delete.php?id=$id'><i class='material-icons'>delete</i></td>";
+    echo "<td>$nome</td><td>$email</td><td>$telefone</td><td><a href='editar.php?id=$id'><i class='material-icons'>edit</i></td><td><a href='bd/delete.php?id=$id'><i class='material-icons'>delete</i></td>";
     echo "</tr>";
 endwhile;
 
